@@ -1,7 +1,7 @@
 
 import styles from '../styles/navbar.module.css'
 import ProjectCard from '../Components/ProjectCard';
-import stlyes from '../styles/project.module.css'
+import stlyes from '../styles/Project.module.css'
 
 
 const Projects = () => {
