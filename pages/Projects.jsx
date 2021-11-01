@@ -6,22 +6,21 @@ const Projects = () => {
     const projects = [
         {
             title: 'ASTERPOCALYPSE',
-            imgScr: '/',
+            imgScr: '/spaceship.png',
             content:
-                'This is a 2d space shooter game, made with python 3 and tkinter. In it you control a ship with your mouse, and shoot the asteroids'
+                'This is a 2d space shooter game, made with python 3 and tkinter. In it you control a ship with your mouse, and shoot the asteroids',
 
-        }
+        },
     ]
-    return <div className= {styles.bodyText}>
-        <h1>My Projects</h1>
-        
-        <p>ASTERPOCALYPSE
-            <br />
-            
-            
-            
-        </p>
+    return(
+    <div className= {styles.projects}>
+    {projects.map((project, index) => (
+      <ProjectCard key={index} title={project.title} imgSrc={project.imgSrc} content={project.content} />
+    ))}
     </div>
+    );
 }
+
+
 
 export default Projects;
