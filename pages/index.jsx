@@ -9,6 +9,7 @@ const home = () => {
   <p>Student, Programmer, Artist</p>
   <Button path= "About">About</Button>
   <Button path="Projects">My Projects</Button>
+  <p>This Website is currently being built, I will add my projects and other work as time goes on</p>
   </div>
   );
 
