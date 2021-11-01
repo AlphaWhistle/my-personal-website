@@ -1,4 +1,20 @@
 
 .navbar {
     background-color: #0f0f14;
+    height: 60px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.logoLink {
+    flex-grow: 1;
+
 }

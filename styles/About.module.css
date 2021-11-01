@@ -1,0 +1,26 @@
+
+.about {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    box-sizing: border-box;
+    text-align: start;
+    font-size: 40px;
+    margin: 0;
+    width: 100%;
+    padding-left: 25%;
+}
+
+.about p {
+    box-sizing: border-box;
+    text-align: start;
+    font-size: 17px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 0px 25%;
+}

@@ -1,5 +1,8 @@
+
+import styles from '../styles/navbar.module.css'
+
 const Projects = () => {
-    return <div>Projects</div>
+    return <div className= {styles.bodyText}>Projects</div>
 }
 
 export default Projects;

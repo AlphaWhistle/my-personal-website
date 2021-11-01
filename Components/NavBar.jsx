@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import styles from '../styles/navbar.module.css'
+
 const NavBar = () => {
     return <nav className={styles.navbar}>
         <Link href="/" passHref>
-            <a>Patrick  Matuszek</a>
+            <a className= {styles.logoLink}>Patrick  Matuszek</a>
         </Link>
         <Link href="/">Home</Link>
         <Link href="/About">About</Link>
