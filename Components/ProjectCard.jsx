@@ -6,7 +6,7 @@ const ProjectCard = ({ title, imgSrc, content }) => {
   return (
     <div className={styles.ProjectCard}>
       <h3 className={styles.title}>{title}</h3>
-      <Image src={imgSrc} alt="project image" width={400} height={200} />
+      <Image src={imgSrc} alt="/spaceshipe.png" width={400} height={200} />
       <p className={styles.content}>{content}</p>
     </div>
   );
