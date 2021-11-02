@@ -2,11 +2,38 @@
 .customButton{
     background-color: #0f0f14;
     color: beige;
-    border: 1px solid white;
+    border: 1px hidden;
     width: 220px;
     height: 70px;
     font-size: 20px;
     cursor: pointer;
     margin-bottom: 30px;
+    display: inline-block;
+    position: relative;
+    transition: 0.45s;
     
 }
+
+.customButton:hover {
+    padding-left: 25px;
+}
+
+.customButton:hover:before {
+    position: relative;
+    content:"> ";
+    transition: 20s;
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: .9s;
+}
+
+@-webkit-keyframes blinker {
+    0%{     color: white;    }
+    49%{    color: white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    
+    100%{   color: white;    }
+  }
+
