@@ -7,4 +7,5 @@ const Button = ({path, children = 'Click Me'}) => {
     return <button className={styles.customButton} onClick={() => router.push(path) }>{children}</button>
 };
 
+/* onClick={() => router.push(path) } */
 export default Button;

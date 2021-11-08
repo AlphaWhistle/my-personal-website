@@ -6,7 +6,7 @@ const Artwork = () => {
     const projects = [
         {
             title: 'The Red Ball',
-            imgScr: '/spaceship.png',
+            imgScr: '/Red_Ball_002.gif',
             content:
                 'The Standard intro to animation project',
         },

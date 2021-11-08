@@ -8,10 +8,11 @@ const Projects = () => {
     const projects = [
         {
             title: 'ASTERPOCALYPSE',
-            imgScr: '/spaceship.png',
+            imgScr: '/Thumbnail_Astro.png',
             content:
-                'This is a 2d space shooter game, made with python 3 and tkinter. In it you control a ship with your mouse, and shoot the asteroids',
-
+                'This is a 2d space shooter game, made with python and tkinter.',
+            Width: 500,
+            Height: 400,
         },
         
     ]
@@ -21,9 +22,9 @@ const Projects = () => {
     <br />
     <br />
     {projects.map((project, index) => (
-      <ProjectCard key={index} title={project.title} imgSrc={project.imgScr} content={project.content} />
+      <ProjectCard key={index} title={project.title} imgSrc={project.imgScr} content={project.content} W={project.Width} H={project.Height} />
     ))}
-    <Button>Git</Button>
+    <Button path= "https://github.com/AlphaWhistle/Asterpocalypse" ><a target="_blank" href= "https://github.com/AlphaWhistle/Asterpocalypse" >Git</a></Button>
     </div>
     );
 }
